@@ -6,6 +6,7 @@
   "scripts": {
     "test": "mocha '__tests__/*.test.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
     "start": "node index.js"
+   
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +19,9 @@
     "mongoose": "^5.13.16",
     "node-serialize": "0.0.4",
     "nodemon": "^2.0.21"
+  },
+  "engines": {
+    "node": "v16.17.0"
   }
+
 }
